@@ -1,0 +1,8 @@
+{
+    "name": "devcontainer-nextjs",
+	"dockerComposeFile": [
+		"../docker-compose.dev.yml"
+	],
+    "service": "next_app",
+    "workspaceFolder": "/workspace"
+  }
